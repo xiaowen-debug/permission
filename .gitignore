@@ -1,0 +1,12 @@
+.classpath
+.project
+.settings
+*.iml
+target
+**/data/eams_elasticsearch/
+*~
+.idea/*
+.DS_Store
+rebel.xml
+.rebel*xml*bak
+.idea
