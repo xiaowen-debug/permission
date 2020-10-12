@@ -41,7 +41,7 @@
 
     <!-- 配置MapperScannerConfigurer来扫描Mapper接口所在的包 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.xiaowen.mapper" />
+        <property name="basePackage" value="com.xiaowen.dao" />
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
     </bean>
 
