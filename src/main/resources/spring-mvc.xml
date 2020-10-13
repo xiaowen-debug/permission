@@ -27,8 +27,10 @@
         <bean class="com.xiaowen.common.ApplicationContextHelper" lazy-init="false" />
 
         <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping" />
-        <bean class="com.xiaowen.common.SpringExceptionResolver" />
+
     -->
+    <bean class="com.xiaowen.common.SpringExceptionResolver" />
+
     <bean class="org.springframework.web.servlet.view.BeanNameViewResolver" />
 
     <bean id="jsonView" class="org.springframework.web.servlet.view.json.MappingJackson2JsonView" />
